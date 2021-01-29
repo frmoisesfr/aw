@@ -1,0 +1,31 @@
+/*
+    FORMULARIOS CSS
+    Enero 2021, Moisés Fernández
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.fm{
+    display: flex;
+    flex-direction: column;
+}
+
+.fm>*{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+
